@@ -14,8 +14,7 @@ def Great(arr):
         print("Error: There are not enough elements in the array to perform the operation.")
         return False
     except TypeError:
-        print("Error: Numeric data type expected."
-)
+        print("Error: Numeric data type expected.")
 
 result = Great(arr)
 print(result)
