@@ -1,4 +1,4 @@
-arr = [65, 3, 65]
+arr = [2, 3, 65]
 
 def Great(arr):
     try:
@@ -15,6 +15,7 @@ def Great(arr):
         return False
     except TypeError:
         print("Error: Numeric data type expected.")
+
 
 result = Great(arr)
 print(result)
